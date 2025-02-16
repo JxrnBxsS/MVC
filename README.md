@@ -9,6 +9,7 @@ Requirements:
 
 My Result:
 MVC = 40/50, Requirement = 21/30, Code quality = 20/20 --> Total = 81/100
+
 The separation of MVC is quite well done. The Model can still be further separated according to the requirements. The requirements are partially clear, but the Model was not separated as instructed in the problem statement. The code is clean, with well-named variables.
 
 --------------------------------
@@ -25,4 +26,5 @@ Design Pattern หรือแนวคิดอื่น ๆ ที่คล้
 
 ผลสรุป:
 MVC = 40/50, ความต้องการของโจทย์ = 21/30, คุณภาพของโค้ดโปรแกรม = 20/20 --> รวม = 81/100
+
 แยกส่วน MVC ทำได้ค่อนข้างดี Model ยังสามารถแยกออกมาตาม requirement ได้อีก เคลียร์ Requirement ได้ระดับหนึ่ง แต่ไม่ได้สร้าง Model แยกกันตามที่โจทย์สั่ง โค้ดสะอาด มีการตั้งชื่อตัวแปรที่ดี
