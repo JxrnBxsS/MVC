@@ -8,9 +8,7 @@ Requirements:
 4) If there are two singers, calculate the score using the formula: (Song duration × Total number of characters in both singers' names) % 100
 5) If there are three singers, calculate the score using the formula: (Total number of characters in all previous singers' names × Total number of characters in the current singers' names) % 100
 
-My Result:
-
-MVC = 40/50, Requirement = 21/30, Code quality = 20/20 --> Total = 81/100
+My Result: MVC = 40/50, Requirement = 21/30, Code quality = 20/20 --> Total = 81/100
 
 The separation of MVC is quite well done. The Model can still be further separated according to the requirements. The requirements are partially clear, but the Model was not separated as instructed in the problem statement. The code is clean, with well-named variables.
 
@@ -27,8 +25,6 @@ Design Pattern หรือแนวคิดอื่น ๆ ที่คล้
 4) หากคนร้องมีสองคน ให้คํานวณคะแนนเท่ากับ (ระยะเวลาของเพลงนี้x จํานวนตัวอักษรของชื่อคนร้องทั้งคู่ในรอบนี้รวมกัน) % 100
 5) หากคนร้องมีสามคน ให้คํานวณคะแนนเท่ากับ (จํานวนตัวอักษรของชื่อคนร้องก่อนหน้านี้ทั้งหมด x จํานวนตัวอักษรของชื่อคนร้องทั้งหมดในรอบนี้) % 100
 
-ผลสรุป:
-
-MVC = 40/50, ความต้องการของโจทย์ = 21/30, คุณภาพของโค้ดโปรแกรม = 20/20 --> รวม = 81/100
+ผลสรุป: MVC = 40/50, ความต้องการของโจทย์ = 21/30, คุณภาพของโค้ดโปรแกรม = 20/20 --> รวม = 81/100
 
 แยกส่วน MVC ทำได้ค่อนข้างดี Model ยังสามารถแยกออกมาตาม requirement ได้อีก เคลียร์ Requirement ได้ระดับหนึ่ง แต่ไม่ได้สร้าง Model แยกกันตามที่โจทย์สั่ง โค้ดสะอาด มีการตั้งชื่อตัวแปรที่ดี
